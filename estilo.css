@@ -1,0 +1,204 @@
+ *{
+	box-sizing: border-box;
+}
+ body{
+ 	background-color: #0000;
+ 	font-family: 'Nunito', sans-serif;
+ }
+
+ header .contenedor{
+ 	width:100%;
+ 	background-color:#0000;
+ 	margin-bottom: 20px;
+
+ }
+
+ hr{
+ 	padding:0px;
+
+ }
+ .slider{
+ 	margin: auto;
+ 	width: 95%;
+ 	overflow:hidden;
+
+ }
+ .slider ul{
+ 	padding: 0;
+ 	display: flex;
+ 	width: 400%;
+ 	animation:cambio 20s infinite;
+ 	animation-direction: alternate linear;
+ }
+
+ .slider li {
+ 	width: 100%;
+ 	list-style:none;
+ }
+ .slider img{
+ 	width: 100%;
+ }
+ @keyframes cambio{
+ 	0%{ margin-left: 0; }
+ 	20%{ margin-left: 0; }
+
+ 	25%{margin-left:-100%;}
+ 	45%{margin-left:-100%;}
+
+ 	505%{margin-left:-200%;}
+ 	70%{margin-left:-200%;}
+ 	75%{margin-left:-300%;}
+ 	100%{margin-left:-300%;}
+ }
+
+.menu ul{
+	margin:auto;
+	list-style:none;
+	padding:0px;
+	display:flex;
+	float:right;
+	position: relative; 
+	text-decoration:none;
+}	
+
+.menu li h4{
+	flex-grow: 1;
+}
+
+.menu li:hover{
+	background: grey; 
+	text-decoration: underline;
+
+
+}
+
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color:black;
+	text-decoration:none;
+}
+
+.menu a{
+	display: inline;
+	padding: 15px 20px;
+	color:black;
+	text-decoration:none;
+}
+.section1{
+	width:100%;
+ 	background-color :#005900;
+ 	margin-bottom: 20px;
+ 	margin: auto;
+ 	height: 150px;
+ 	text-align: center;
+}
+
+
+h3.section2.contenedor1.contenedor2.contenedor3 {
+	text-align:center;
+}
+
+h3.section3.articulo1{
+	text-align: center;
+}
+.contenedor1{
+	background-color:none;
+	margin:auto;
+	width: 30%;
+	height: auto;
+	margin-bottom: auto;
+	text-align: justify;
+	float:left;
+	padding:20px; 
+	display: block;
+}
+
+.contenedor2{
+	background-color:none; 
+	margin:auto;
+	height: auto;
+	width: 30%;
+	margin-bottom: auto;
+	text-align: justify;
+	float:left;
+	display: block;
+	padding: 20px;
+}
+.contenedor3{
+	background-color:none; 
+	margin:auto;
+	height: auto;
+	width: 30%;
+	margin-bottom: auto;
+	text-align: justify;
+	float:left;
+	padding: 20PX;
+	display: block;
+}
+
+
+div.menu3{
+	width: 200px;
+	height:200px;
+	float:left;
+
+}
+i.menu3 {
+	background-color:none; 
+	display: block;
+	background-color: white;
+	width:70px;
+	border-radius: 50%;
+	padding: 20px;
+
+}
+
+.menu3 i:hover{
+	background: white;
+	border-radius:auto;
+	text-decoration-line:none;
+	width: 200px;
+
+}
+
+.menu3 h3:hover{
+	background: none;
+	text-decoration: underline;
+}
+
+i{
+	padding:20px;
+}
+
+
+i.fa{
+	font-size:70px;
+	display: block;
+}
+
+div.articulo1{
+	display: block;
+}
+
+.section3{
+	text-align: justify-all;
+	background-color:#005900;
+	float: left;
+}
+
+
+.piepagina{
+	text-align: justify-all;
+}
+div.pie{
+	
+	display: block; 
+	background-color: #0000;
+	width:70px;
+	padding: 120px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	float: left;
+
+}
